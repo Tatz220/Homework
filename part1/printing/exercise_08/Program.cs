@@ -7,6 +7,11 @@ namespace exercise_08
         public static void Main(string[] args)
         {
             // Write your code here:
+            Console.WriteLine("What is your name?");
+            string name = "Ada";
+            string greeting = "Hello ";
+            Console.WriteLine(greeting + name + "!");
+            
 
         }
     }

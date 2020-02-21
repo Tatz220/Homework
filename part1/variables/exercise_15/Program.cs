@@ -27,6 +27,7 @@ namespace exercise_15
       Console.WriteLine("Your integer:" + userInputInt);
       Console.WriteLine("Your double:" + userInputDouble);
       Console.WriteLine("Your boolean:" + booleanInput);
+      
 
     }
   }

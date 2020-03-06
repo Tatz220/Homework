@@ -8,6 +8,15 @@ namespace exercise_45
     {
 
       // Write your code here:
+      string userinput = Console.ReadLine();
+      int intvalue = Convert.ToInt32(userinput);
+      int number = 0;
+      
+      while(number <= intvalue)
+      {
+        Console.WriteLine(number);
+        number = number +1;
+      }
 
     }
   }
